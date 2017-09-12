@@ -4,11 +4,15 @@
     padding: 0px;
 }
 
+body{
+    height: 100%;
+}
+
 .body-index{
     background-image: url(../img/fondo.jpg);
     background-size: 100%;
     height: 100px;
-    color: white;
+    color: white;   
 }
 
 .logo{
@@ -17,7 +21,7 @@
 }
 
 .botones{
-    margin-top: 100%;
+    margin-top: 90%;
 }
 
 .btn-botones{
@@ -64,3 +68,7 @@
     
 }
 
+/* sign_app */
+.form{
+    margin: 2%;
+}
