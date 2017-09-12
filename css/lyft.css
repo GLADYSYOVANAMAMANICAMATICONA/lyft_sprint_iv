@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    margin: auto; 
+    padding: 0px;
+}
+
+.body-index{
+    background-image: url(../img/fondo.jpg);
+    background-size: 100%;
+    width: 100%;
+    color: white;
+}
+
+.logo{
+    padding: 5%;
+    width: 50%;
+}
+
+.botones{
+    margin-top: 100%;
+}
+
+.btn-botones{
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+    font-size: 30px;
+    margin-top: 10%;
+    padding: 4%;
+    width: 40%;
+}
+
+.btn-color-t{
+    background: rgba(255, 255, 255, 0);
+}
+
+.btn-color-f{
+    background: rgb(226, 42, 150);
+}
+
+/* sign_up.html */
+.body-sign_up{
+    background-color: rgb(255, 255, 255);
+}
+
+.sign-up{
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(209, 203, 203);
+    font-size: bold;
+}
