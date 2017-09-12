@@ -11,6 +11,7 @@ body{
 .body-index{
     background-image: url(../img/fondo.jpg);
     background-size: cover;
+    height: 100%;
     color: white;   
 }
 
@@ -20,7 +21,7 @@ body{
 }
 
 .botones{
-    margin-top: 90%;
+    margin-top: 80%;
 }
 
 .btn-botones{
@@ -71,3 +72,4 @@ body{
 .form{
     margin: 2%;
 }
+
