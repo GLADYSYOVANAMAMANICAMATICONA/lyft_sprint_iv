@@ -11,7 +11,6 @@ body{
 .body-index{
     background-image: url(../img/fondo.jpg);
     background-size: cover;
-    height: 100%;
     color: white;   
 }
 
