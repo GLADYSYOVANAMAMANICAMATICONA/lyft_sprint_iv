@@ -18,16 +18,26 @@
 </head>
 
 <body>
-        <div class="izquierda">
-            <a href="sign_up.html"><img class="izquierda" src="../img/izquierda.gif" alt=""></a>                               
-        </div>
+    <div class="izquierda">
+        <a href="map.html.html"><img class="izquierda" src="../img/izquierda.gif" alt=""></a>                               
+    </div>
     <section class="container">
+
+        <div class="row">
             <div class="col-md-12 col-sm-12" id="map">
                 <!-- Aqui ira nuestro mapa -->
             </div>
+        </div>
+        
         <div class="row">
-            <div class="col-md-3 col-sm-12">
-                <a id="roadd" class="btn btn-map" href="map2.html"><i class="fa fa-bicycle" aria-hidden="true"></i> road</a>
+            <div class="col-md-3 col-sm-4">
+                <div class="form-group">
+                    <input type="text" id="earmark" name="earmark" placeholder="Introduce una ubicación" class="form-control">
+                    <!-- earmark=destino -->
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <button id="road" class="btn btn-map"><i class="fa fa-bicycle" aria-hidden="true"></i> road</button>
             </div>
         </div>
     </section>
@@ -38,8 +48,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
     <!-- Tu Archivo main.js -->
-    <script src="https://use.fontawesome.com/1625bb79ec.js"></script>
-    <script type="text/javascript" src="../js/lyft.js"></script>
+    <!-- <script src="https://use.fontawesome.com/1625bb79ec.js"></script> -->
+    <script type="text/javascript" src="../js/lyft2.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDj_W1ZaIS_DRBNaqkYH6c9V2XZPdG743Y&callback=initMap&libraries=places"></script>
 </body>
 

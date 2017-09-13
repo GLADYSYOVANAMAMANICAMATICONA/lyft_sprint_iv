@@ -2,6 +2,7 @@
     margin: 0px;
     margin: auto; 
     padding: 0px;
+    font-family: 'Droid Serif', serif;
 }
 
 body{
@@ -9,7 +10,8 @@ body{
 }
 
 .body-index{
-    background-image: url(../img/fondo.jpg);
+    background-image: url("http://i.stack.imgur.com/jGlzr.png");
+    background-color: #cccccc;
     background-size: cover;
     height: 100vh; 
     color: white;   
@@ -37,8 +39,8 @@ body{
     background: hsla(0, 0%, 100%, 0);
 }
 
-.btn-color-f{
-    background: rgb(226, 42, 150);
+.btn-color-t:hover{
+    background: linear-gradient(90deg, rgb(53, 35, 132), rgb(255, 0, 191));
 }
 
 /* sign_up.html */
@@ -73,3 +75,9 @@ body{
     margin: 2%;
 }
 
+.icono-izquierda{
+    z-index: 100;
+}
+.izquierda{
+    width: 60px;
+}
