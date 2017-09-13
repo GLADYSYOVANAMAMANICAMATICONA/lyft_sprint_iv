@@ -31,4 +31,5 @@ button {
 .izquierda{
     position: absolute;
     z-index: 10000;
+    width: 80px;
 }
