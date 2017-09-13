@@ -32,7 +32,7 @@ const app = {
         app.createListener(autoCompletarDestino, detalleUbicacionDestino, marcadorDestino);
         /* Mi ubicación actual */
         app.buscarMiUbicacion();
-        //document.getElementById("findMe").addEventListener("click", app.buscarMiUbicacion);
+        document.getElementById("findMe").addEventListener("click", app.buscarMiUbicacion);
         /* Ruta */
         let directionsService = new google.maps.DirectionsService;
         let directionsDisplay = new google.maps.DirectionsRenderer;

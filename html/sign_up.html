@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/lyft.css">
     
@@ -12,12 +13,12 @@
 
     <title>LYFT</title>
 </head>
-<body class="body-sign_up">
+<body class="body-sign_up " id="imagen">
     <center>
         <header>
-            <div class="row sign-up">
+            <div class="row sign-up">                   
                 <div class="col-sm-12">
-                    <h1>Sign up</h1>
+                    <h1> <a href="../index.html"><img class="izquierda" src="../img/izquierda.gif" alt=""></a>Sign up</h1>
                     <h5>Join now for free ride credit</h5>
                 </div>
             </div>
@@ -26,12 +27,13 @@
             <div class="input-group drowdow">
                 <span class="input-group-addon">
                     <select title="Select your surfboard" class="selectpicker">
-                        <option><img src="../img/peru.png" alt="">PERÚ</option>
-                        <option data-thumbnail="../img/chile.png">CHILE</option>
-                        <option data-thumbnail="../img/mexico.png">MEXICO</option>
+                        <option><img src="../img/peru.png" alt="">PERÚ +51</option>
+                        <option data-thumbnail="../img/chile.png">CHILE +56</option>
+                        <option data-thumbnail="../img/mexico.png">MEXICO +52</option>
                     </select>
                 </span>
-                <input id="number" type="number" class="form-control" name="telf" placeholder="958297890" required>
+                
+                <input id="tel" type="number" class="form-control" name="telf" placeholder="958297890" required>
             </div>
             <h5>We'll send a text to verify your phone</h5>
             
@@ -42,5 +44,6 @@
             </div>
         </section>                                                                          
     </center>
+  
 </body>
 </html>
